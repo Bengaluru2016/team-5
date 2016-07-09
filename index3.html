@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<style type="text/css">
+*{box-sizing:border-box;]
+.out{width:200px;height:auto;border:1px #c0c0c0 solid;}
+.inner{width:100%;height:auto;padding:4px;font-size:11px;font-family:arial;}
+</style>
+
+
+
+<script>
+window.onload=function(){
+    var output = document.getElementById("b");
+    var i=1;
+	out.println("b");
+    var val="";
+    while(i<=3)
+    {
+
+       
+        
+            var ele = document.createElement("div");
+           
+            ele.innerHTML="hi "+i;
+            output.appendChild(ele);
+            
+        
+        i++;
+        
+
+    }
+};
+</script>
+</head>
+<body>
+
+<div data-role="page">
+  <div data-role="header">
+    <h1>TIMES OF RANG DE</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <center><a href="#myPopupDialog" data-rel="popup" data-position-to="window" data-transition="fade" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">Add a new item</a></center>
+
+    <div data-role="popup" id="myPopupDialog">
+      <div data-role="header">
+        
+      </div>
+
+      <div data-role="main" class="ui-content">
+        <h2>Paste the URL here</h2>
+       <input type="text" name="a" id="b">
+        <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b ui-icon-back ui-btn-icon-left" data-rel="back">Go Back</a>
+      </div>
+
+   
+    </div>
+  </div>
+
+  
+</div>
+</body>
+</html>
+
