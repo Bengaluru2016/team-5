@@ -1,0 +1,117 @@
+body{
+	overflow-x: hidden;
+}
+.what-we-do-image{
+	width: 40%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+
+}
+@media(max-width: 330px){
+	.what-we-do-image{
+		width: 30%;
+	}
+}
+@media(max-width: 700px){
+	.what-we-do-image{
+		margin-top: 5%;
+	}
+}
+.card{
+	height: 44vh;
+	border-radius: 0px;
+	box-shadow: none;
+	background-color: white; 
+	margin: 0px;
+/*	margin-bottom: 1px;
+*/}
+@media(max-width: 1000px) and (min-width: 550px){
+	.card{
+		height: 30vh;
+	}
+}
+@media (max-width: 500px)
+{
+	.card{
+		height: 21.25vh !important;
+	}
+	.card-title{
+		line-height: 1.5 !important;
+	}
+}
+.row .col{
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.gdg-blue{
+	background-color: #018fe5 !important;
+}
+.skills{
+	margin-right: 15%;
+	margin-left: 15%;
+	border-left: 3px solid #ee8822;
+	border-right: 3px solid #ee8822;
+
+}
+.card-title{
+	font-size: 36px !important;
+	color: black !important;
+}
+@media (max-width: 500px)
+{
+	.card-title{
+		font-size: 13px !important;
+	}
+}
+.circular{
+	border-radius: 50%;
+	width: 50% !important;
+	background-color: #192f46;
+	margin-top: 5%;
+}
+.members{
+/*	margin-bottom: 0px;
+*/	margin-top: 0px;
+	padding-top: 0px;
+}
+.card-content{
+	color: black;
+}
+.none{
+ display: none;
+}
+.skillset{
+	margin-bottom: 0px;
+}
+.navy-blue{
+	background-color: #192f46;
+}
+.close{
+	float: right;
+
+}
+.slides{
+	height: 40vh !important;
+}
+.slider{
+	height: 44vh !important;
+}
+@media (max-width: 600px){
+.slides{
+	height: 42vh !important;
+}
+.slider{
+	height: 60vh !important;
+}
+}
+.slider .indicators .indicator-item.active {
+	background-color: #018fe5;
+
+}
+.mobile-member{
+	float: right;
+}
+.white-color{
+	color: white !important;	
+}
