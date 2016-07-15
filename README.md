@@ -1,8 +1,11 @@
-#Team 5
-Hi All!!
+#TEAM 5
 
-Hello:)
+A web application to address problem faced by RangDe in terms of enhancing their customer base and converting the existing website viewers into invertors.
 
-Hello
-
-Hey guys, lets share down our contact numbers and make a group on whatsapp, so that we get to know each other well and be prepared for the hack
+Key Features Used:
+- Progressive UI 
+- Free sharing options on social media -Facebook and Twitter
+- Changing modes of payment for a better reach
+- Capturing Empathatic posts and highlighting them under the section "Times of RangDe" to multiply inverstor base.
+- Refer and earn options for existing users for wider spread of word
+- Rating Portfolio for Investors and Borrowers
